@@ -17,18 +17,45 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 .studio{
+    color: #2E2F42;
     position: absolute;
     top: 24px;
     left: 200px;
     font-size: 18px;
     font-family: 'Raleway', sans-serif;   
 }
-.menu_nav{
+.Portfolio{
+    color: #000000;
+    position: absolute;
+    top: 24px;
+    left: 435px;
+    word-spacing: 40px;
+    border-color: #4D5AE5;
+}
+.studio2{
+    color: #000000;
     position: absolute;
     top: 24px;
     left: 347px;
     word-spacing: 40px;
     border-color: #4D5AE5;
+}
+.Contacts{
+    color: #000000;
+    position: absolute;
+    top: 24px;
+    left: 541px;
+    word-spacing: 40px;
+    border-color: #4D5AE5;
+}
+.menu_nav{
+    position: absolute;
+    width: 261px;
+    height: 24px;
+    top: 24px;
+    left: 347px;
+    gap: 40px;
+    
     
     
 }
@@ -164,7 +191,7 @@ p{
     top: 672px;
     left: 0px;
 }
-div.OurTeam > h2{ 
+.OurTeam{ 
     color:#2E2F42;
     font-size: 36px;
     font-weight: 700;
