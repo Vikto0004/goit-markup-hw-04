@@ -1,7 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
-    background-color: #E7E9FC;
+    color: #434455;
+    background-color: #FFFFFF;
     line-height: 24px;
     font-size: 16px;
     font-weight: 500;
@@ -35,9 +35,10 @@ p{
     font-family: 'Raleway', sans-serif;
 }
 .studio{
+    color: #2e2f42;
     position: absolute;
-    top: 24px;
-    left: 200px;
+    top: 0px;
+    left: 44px;
     font-size: 18px;
     font-family: 'Raleway', sans-serif;   
 }
@@ -46,18 +47,42 @@ p{
     top: 24px;
     left: 435px;
     word-spacing: 40px;
+    letter-spacing: 0.02em
+}
+.portfolio:hover{
+    color: #404bbf;
+}
+.portfolio:focus{
+    color: #404bbf;
 }
 .studio1{
     position: absolute;
     top: 24px;
     left: 347px;
     word-spacing: 40px;
+    letter-spacing: 0.02em
+}
+.studio1:hover{
+    color: #404bbf;
+}
+.studio1:focus{
+    color: #404bbf
 }
 .contacts{
     position: absolute;
     top: 24px;
     left: 541px;
     word-spacing: 40px;
+    letter-spacing: 0.02em
+}
+.contacts:hover{
+    color: #404bbf;
+}
+.contacts:focus{
+    color: #404bbf;
+}
+.address{
+    font-style: normal
 }
 .mail{
     color:#434455;
@@ -65,7 +90,13 @@ p{
     top: 24px;
     left: 940px;
     font-weight: 400;
-    font-style: normal;
+    letter-spacing: 0.02em
+}
+.mail:hover{
+    color:  #404bbf ;
+}
+.mail:focus{
+    color:  #404bbf;
 }
 .phone{
     color:#434455;
@@ -73,14 +104,21 @@ p{
     top: 24px;
     left: 1133px;
     font-weight: 400;
-    font-style: normal;
+    letter-spacing: 0.02em
+}
+.phone:hover{
+    color:  #404bbf;
+}
+.phone:focus{
+    color:  #404bbf;
 }
 .title{
     color: #FFFFFF;
     text-align: center;
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
     
     position: absolute;
     top: 260px;
@@ -98,19 +136,11 @@ p{
     left: 0px;
 }
 .block1{
-    background:#ffffff;
+    background: #F4F4FD;
     position: absolute;
     width: 1440px;
-    height: 72px;
-    top: 0px;
-    left: 0px;
-}
-.block2{
-    background:#ffffff;
-    position: absolute;
-    width: 1440px;
-    height: 344px;
-    top: 672px;
+    height: 732px;
+    top: 1016px;
     left: 0px;
 }
 .block3{
@@ -144,13 +174,16 @@ p{
     cursor: pointer;
         /*Text*/
     color: #FFFFFF;
-    line-height: 24px;
     letter-spacing: 0.04em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
 
 
 }
 .button:hover{
-    background-color: #4D5AE5;
+    background-color: #404BBF;
     box-shadow: 0px 2px 1px 0px #2E2F4214;
     box-shadow: 0px 1px 1px 0px #2E2F4229;
     box-shadow: 0px 1px 6px 0px #2E2F4214;
@@ -159,45 +192,110 @@ p{
     line-height: 19px;
     letter-spacing: 0.04em;
 }
-.button:active{  
+.button:focus{  
     background-color: #404BBF;
     box-shadow: 0px 4px 4px 0px #00000026;
     line-height: 24px;
     letter-spacing: 0.04em;
 }
-.Strategy{
+
+
+
+.strategy{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
     position: absolute;
     width: 264px;
-    height: 104px;
+    height: 24px;
     top: 792px;
     left: 156px;
-    color: #434455;
 }
-.Punctuality{
+.strategy1{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    position: absolute;
+    top: 826px;
+    left: 156px;
+}
+
+.punctuality{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
     position: absolute;
     width: 264px;
     height: 104px;
     top: 792px;
     left: 444px;
-    color: #434455;
 }
-.Diligence{
+.punctuality1{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    position: absolute;
+    top: 826px;
+    left: 444px;
+}
+
+.diligence{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
     position: absolute;
     width: 264px;
     height: 104px;
     top: 792px;
     left: 732px;
-    color: #434455;
 }
-.Technologies{
+.diligence1{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    position: absolute;
+    top: 826px;
+    left: 732px;
+}
+
+.technologies{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
     position: absolute;
     width: 264px;
     height: 104px;
     top: 792px;
     left: 1020px;
-    color: #434455;
 }
-.OurTeam{ 
+.technologies1{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    position: absolute;
+    top: 826px;
+    left: 1020px;
+}
+
+
+
+.our-team{ 
     color:#2E2F42;
     font-size: 36px;
     font-weight: 700;
@@ -225,7 +323,7 @@ img{
     box-shadow: 0px 1px 6px 0px #2E2F4214;
     
 }
-.MarkGuerrero{
+.mark-guerrero{
     color: #434455;
     font-weight: 400;
     letter-spacing: 0.02em;
@@ -240,7 +338,13 @@ img{
     background-color: #FFFFFF;
     border-radius: 4px;
 }
-.TomFord{
+.mark-guerrero1{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.tom-ford{
     color: #434455;
     font-weight: 400;
     letter-spacing: 0.02em;
@@ -255,7 +359,7 @@ img{
     background-color: #FFFFFF;
     border-radius: 4px;
 }
-.CamilaGarcia{
+.camil-garcia{
     color: #434455;
     font-weight: 400;
     letter-spacing: 0.02em;
@@ -270,7 +374,7 @@ img{
     background-color: #FFFFFF;
     border-radius: 4px;
 }
-.DanielWilson{
+.daniel-wilson{
     color: #434455;
     font-weight: 400;
     letter-spacing: 0.02em;
@@ -301,7 +405,7 @@ img{
     font-size: 18px;
     font-family: 'Raleway', sans-serif;   
 }
-.Increase{
+.increase{
     color: #F4F4FD;
     position: absolute;
     top: 3128px;
