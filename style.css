@@ -32,6 +32,10 @@ p{
     top: 24px;
     left: 156px;
     font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
 }
 .studio{
@@ -40,6 +44,10 @@ p{
     top: 0px;
     left: 44px;
     font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     font-family: 'Raleway', sans-serif;   
 }
 .portfolio{
@@ -112,6 +120,14 @@ p{
 .phone:focus{
     color:  #404bbf;
 }
+.section1{
+    background:#2E2F42;
+    position: absolute;
+    width: 1440px;
+    height: 600px;
+    top: 72px;
+    left: 0px;
+}
 .title{
     color: #FFFFFF;
     text-align: center;
@@ -126,38 +142,6 @@ p{
     width: 496px;
     height: 120px;
     margin: 0;
-}
-.block{
-    background:#2E2F42;
-    position: absolute;
-    width: 1440px;
-    height: 600px;
-    top: 72px;
-    left: 0px;
-}
-.block1{
-    background: #F4F4FD;
-    position: absolute;
-    width: 1440px;
-    height: 732px;
-    top: 1016px;
-    left: 0px;
-}
-.block3{
-    background:#2E2F42;
-    position: absolute;
-    width: 1440px;
-    height: 320px;
-    top: 2988px;
-    left: 0px;
-}
-.block4{
-    background:#ffffff;
-    position: absolute;
-    width: 1440px;
-    height: 1240px;
-    top: 1748px;
-    left: 0px;
 }
 .button{
     background-color: #4D5AE5;
@@ -198,6 +182,32 @@ p{
     line-height: 24px;
     letter-spacing: 0.04em;
 }
+
+.block1{
+    background: #F4F4FD;
+    position: absolute;
+    width: 1440px;
+    height: 732px;
+    top: 1016px;
+    left: 0px;
+}
+.block3{
+    background:#2E2F42;
+    position: absolute;
+    width: 1440px;
+    height: 320px;
+    top: 2988px;
+    left: 0px;
+}
+.block4{
+    background:#ffffff;
+    position: absolute;
+    width: 1440px;
+    height: 1240px;
+    top: 1748px;
+    left: 0px;
+}
+
 
 
 
