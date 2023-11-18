@@ -39,7 +39,10 @@ p{
 }
 .nav{
     word-spacing: 40px;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    line-height: 1.5;
+    
 }
 .nav:hover{
     color: #404bbf;
