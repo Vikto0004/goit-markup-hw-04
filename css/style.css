@@ -50,20 +50,20 @@ p{
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;   
 }
-.portfolio{
+.nav{
     position: absolute;
     top: 24px;
     left: 435px;
     word-spacing: 40px;
     letter-spacing: 0.02em
 }
-.portfolio:hover{
+.nav:hover{
     color: #404bbf;
 }
-.portfolio:focus{
+.nav:focus{
     color: #404bbf;
 }
-.studio1{
+/*.studio1{
     position: absolute;
     top: 24px;
     left: 347px;
@@ -88,7 +88,7 @@ p{
 }
 .contacts:focus{
     color: #404bbf;
-}
+}*/
 .address{
     font-style: normal
 }
