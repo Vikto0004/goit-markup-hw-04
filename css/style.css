@@ -5,8 +5,6 @@ body{
     line-height: 24px;
     font-size: 16px;
     font-weight: 500;
-    width: 264px;
-    height: 24px;
 }
 a{
     text-decoration:none;
@@ -21,16 +19,11 @@ h2{
     color: #2E2F42;
 }
 p{
-    width: 264px;
-    height: 72px;
     font-weight: 400;
     letter-spacing: 0.02em;
 }
 .web{
     color: #4D5AE5;
-    position: absolute;
-    top: 24px;
-    left: 156px;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -40,9 +33,6 @@ p{
 }
 .studio{
     color: #2e2f42;
-    position: absolute;
-    top: 0px;
-    left: 44px;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -51,9 +41,6 @@ p{
     font-family: 'Raleway', sans-serif;   
 }
 .nav{
-    position: absolute;
-    top: 24px;
-    left: 435px;
     word-spacing: 40px;
     letter-spacing: 0.02em
 }
@@ -64,9 +51,6 @@ p{
     color: #404bbf;
 }
 /*.studio1{
-    position: absolute;
-    top: 24px;
-    left: 347px;
     word-spacing: 40px;
     letter-spacing: 0.02em
 }
@@ -77,9 +61,6 @@ p{
     color: #404bbf
 }
 .contacts{
-    position: absolute;
-    top: 24px;
-    left: 541px;
     word-spacing: 40px;
     letter-spacing: 0.02em
 }
@@ -94,9 +75,6 @@ p{
 }
 .mail{
     color:#434455;
-    position: absolute;
-    top: 24px;
-    left: 940px;
     font-weight: 400;
     letter-spacing: 0.02em
 }
@@ -108,9 +86,6 @@ p{
 }
 .phone{
     color:#434455;
-    position: absolute;
-    top: 24px;
-    left: 1133px;
     font-weight: 400;
     letter-spacing: 0.02em
 }
@@ -122,11 +97,6 @@ p{
 }
 .section{
     background:#2E2F42;
-    position: absolute;
-    width: 1440px;
-    height: 600px;
-    top: 72px;
-    left: 0px;
 }
 .title{
     color: #FFFFFF;
@@ -136,25 +106,11 @@ p{
     line-height: 1.07;
     letter-spacing: 0.02em;
     
-    position: absolute;
-    top: 260px;
-    left: 472px;
-    width: 496px;
-    height: 120px;
     margin: 0;
 }
 .button{
     background-color: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px #000000;
-    width: 169px;
-    height: 56px;
     border: none;
-    border-radius: 4px;
-    padding: 16px, 32px, 16px, 32px;
-    
-    position: absolute;
-    top: 428px;
-    left: 636px;
     cursor: pointer;
         /*Text*/
     color: #FFFFFF;
@@ -168,9 +124,6 @@ p{
 }
 .button:hover{
     background-color: #404BBF;
-    box-shadow: 0px 2px 1px 0px #2E2F4214;
-    box-shadow: 0px 1px 1px 0px #2E2F4229;
-    box-shadow: 0px 1px 6px 0px #2E2F4214;
     
     font-weight: 600;
     line-height: 19px;
@@ -178,34 +131,18 @@ p{
 }
 .button:focus{  
     background-color: #404BBF;
-    box-shadow: 0px 4px 4px 0px #00000026;
     line-height: 24px;
     letter-spacing: 0.04em;
 }
 
 .block1{
     background: #F4F4FD;
-    position: absolute;
-    width: 1440px;
-    height: 732px;
-    top: 1016px;
-    left: 0px;
 }
 .block3{
     background:#2E2F42;
-    position: absolute;
-    width: 1440px;
-    height: 320px;
-    top: 2988px;
-    left: 0px;
 }
 .block4{
     background:#ffffff;
-    position: absolute;
-    width: 1440px;
-    height: 1240px;
-    top: 1748px;
-    left: 0px;
 }
 
 
@@ -217,21 +154,12 @@ p{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-
-    position: absolute;
-    width: 264px;
-    height: 24px;
-    top: 792px;
-    left: 156px;
 }
 .strategy1{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    position: absolute;
-    top: 826px;
-    left: 156px;
 }
 
 .punctuality{
@@ -240,21 +168,12 @@ p{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-
-    position: absolute;
-    width: 264px;
-    height: 104px;
-    top: 792px;
-    left: 444px;
 }
 .punctuality1{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    position: absolute;
-    top: 826px;
-    left: 444px;
 }
 
 .diligence{
@@ -263,21 +182,12 @@ p{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-
-    position: absolute;
-    width: 264px;
-    height: 104px;
-    top: 792px;
-    left: 732px;
 }
 .diligence1{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    position: absolute;
-    top: 826px;
-    left: 732px;
 }
 
 .technologies{
@@ -286,21 +196,12 @@ p{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-
-    position: absolute;
-    width: 264px;
-    height: 104px;
-    top: 792px;
-    left: 1020px;
 }
 .technologies1{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    position: absolute;
-    top: 826px;
-    left: 1020px;
 }
 
 
@@ -311,42 +212,18 @@ p{
     font-weight: 700;
     letter-spacing: 0.02em;
     text-align: center;
-    position:absolute;
-    top: 1136px;
-    left: 639px;
     margin: 0;
-    padding: 0;
     border: 0;
 }
 
-img{
-    
-    width: 264px;
-    height: 260px;
-
-    padding: 0px, 0px, 32px, 0px;
-    border-radius: 0px, 0px, 4px, 4px;
-    gap: 32px;
-
-    box-shadow: 0px 2px 1px 0px #2E2F4214;
-    box-shadow: 0px 1px 1px 0px #2E2F4229;
-    box-shadow: 0px 1px 6px 0px #2E2F4214;
-    
-}
 .mark-guerrero{
     color: #434455;
     font-weight: 400;
     letter-spacing: 0.02em;
     text-align: center;
-    
-    position: absolute;
-    width: 264px;
-    height: 380px;
-    top: 1248px;
-    left: 156px;
+
     
     background-color: #FFFFFF;
-    border-radius: 4px;
 }
 .mark-guerrero1{
     font-size: 16px;
@@ -360,14 +237,7 @@ img{
     letter-spacing: 0.02em;
     text-align: center;
     
-    position: absolute;
-    width: 264px;
-    height: 380px;
-    top: 1248px;
-    left: 444px;
-    
     background-color: #FFFFFF;
-    border-radius: 4px;
 }
 .camil-garcia{
     color: #434455;
@@ -375,14 +245,7 @@ img{
     letter-spacing: 0.02em;
     text-align: center;
     
-    position: absolute;
-    width: 264px;
-    height: 380px;
-    top: 1248px;
-    left: 732px;
-    
     background-color: #FFFFFF;
-    border-radius: 4px;
 }
 .daniel-wilson{
     color: #434455;
@@ -390,42 +253,22 @@ img{
     letter-spacing: 0.02em;
     text-align: center;
     
-    position: absolute;
-    width: 264px;
-    height: 380px;
-    top: 1248px;
-    left: 1020px;
-    
     background-color: #FFFFFF;
-    border-radius: 4px;
 }
 .web2{
     color: #4D5AE5;
-    position: absolute;
-    top: 3088px;
-    left: 156px;
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
 }
 .studio2{
     color:#F4F4FD;
-    position: absolute;
-    top: 3088px;
-    left: 200px;
     font-size: 18px;
     font-family: 'Raleway', sans-serif;   
 }
 .increase{
     color: #F4F4FD;
-    position: absolute;
-    top: 3128px;
-    left: 156px;
 }
 .our-portfolio{
-    position: absolute;
-    height: 40px;
-    top: 1868px;
-    left: 611px;
     
     color:#2E2F42;
     font-size: 36px;
@@ -434,85 +277,29 @@ img{
     text-align: center;
 
     margin: 0;
-    padding: 0;
     border: 0;
 }
 .banking-app{
     background-color: #FFFFFF; 
-    position: absolute;
-    width: 360px;
-    height: 420px;
-    top: 1980px;
-    left: 156px;
     border: 1px solid #E7E9FC
-}
-.banking-app-img{
-    width: 360px;
-    height: 300px;
-
 }
 .cashless-payment{
     background-color: #FFFFFF; 
-    position: absolute;
-    width: 360px;
-    height: 420px;
-    top: 1980px;
-    left: 540px;
     border: 1px solid #E7E9FC
-}
-.cashless-payment-img{
-    width: 360px;
-    height: 300px;
 }
 .project-card{
     background-color: #FFFFFF; 
-    position: absolute;
-    width: 360px;
-    height: 420px;
-    top: 1980px;
-    left: 924px;
     border: 1px solid #E7E9FC
-}
-.project-card-img{
-    width: 360px;
-    height: 300px;
 }
 .taxi-service{
     background-color: #FFFFFF; 
-    position: absolute;
-    width: 360px;
-    height: 420px;
-    top: 2448px;
-    left: 156px;
     border: 1px solid #E7E9FC
-}
-.taxi-service-img{
-    width: 360px;
-    height: 300px;
 }
 .screen-illustrations{
     background-color: #FFFFFF; 
-    position: absolute;
-    width: 360px;
-    height: 420px;
-    top: 2448px;
-    left: 540px;
     border: 1px solid #E7E9FC
-}
-.screen-illustrations-img{
-    width: 360px;
-    height: 300px;
 }
 .online-courses{
     background-color: #FFFFFF; 
-    position: absolute;
-    width: 360px;
-    height: 420px;
-    top: 2448px;
-    left: 924px;
     border: 1px solid #E7E9FC
-}
-.online-courses-img{
-    width: 360px;
-    height: 300px;
 }
