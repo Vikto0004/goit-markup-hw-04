@@ -146,7 +146,9 @@ p{
 }
 
 
-
+.li{
+    background-color: #FFFFFF;
+}
 
 .strategy{
     font-weight: 500;
@@ -271,7 +273,7 @@ p{
     font-family: 'Raleway', sans-serif;
 }
 .studio_{
-    color: #2e2f42;
+    color: #f4f4fd;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
