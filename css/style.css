@@ -158,7 +158,7 @@ p{
     gap: 24px;
 }
 .punctuality{
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4) 
 }
 .strategy{
     font-weight: 500;
