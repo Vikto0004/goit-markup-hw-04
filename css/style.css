@@ -154,6 +154,7 @@ p{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    background-color: #FFFFFF
 }
 .strategy_{
     font-size: 16px;
@@ -242,7 +243,12 @@ p{
 }
 .banking-app{
     background-color: #FFFFFF; 
-    border: 1px solid #E7E9FC
+    border: 1px solid #E7E9FC;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .cashless-payment{
     background-color: #FFFFFF; 
