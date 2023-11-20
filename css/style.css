@@ -209,6 +209,7 @@ p{
 }
 .mark{
     padding: 32px 0;
+    width: calc((100% - 72px) / 4);
 }
 .camil-garcia{
     color: #434455;
