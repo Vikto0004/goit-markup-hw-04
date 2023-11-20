@@ -76,7 +76,8 @@ p{
 .mail{
     color:#434455;
     font-weight: 400;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 .mail:hover{
     color:  #404bbf ;
@@ -87,7 +88,8 @@ p{
 .phone{
     color:#434455;
     font-weight: 400;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 .phone:hover{
     color:  #404bbf;
