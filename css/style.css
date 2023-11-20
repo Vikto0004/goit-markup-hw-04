@@ -228,7 +228,9 @@ p{
     font-family: 'Raleway', sans-serif;   
 }
 .increase{
+    line-height: 1.5;
     color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
 .our-portfolio{
     line-height: 1.11;
@@ -256,19 +258,24 @@ p{
     letter-spacing: 0.02em;
     color: #434455;
 }
-.project-card{
-    background-color: #FFFFFF; 
-    border: 1px solid #E7E9FC
+.footer{
+    background-color: #2e2f42;
 }
-.taxi-service{
-    background-color: #FFFFFF; 
-    border: 1px solid #E7E9FC
+.web_{
+    color: #4D5AE5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
 }
-.screen-illustrations{
-    background-color: #FFFFFF; 
-    border: 1px solid #E7E9FC
-}
-.online-courses{
-    background-color: #FFFFFF; 
-    border: 1px solid #E7E9FC
+.studio_{
+    color: #2e2f42;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;   
 }
