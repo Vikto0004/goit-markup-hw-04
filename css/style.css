@@ -74,6 +74,10 @@ p{
 .address{
     font-style: normal
 }
+.address_{
+    display: flex; 
+    gap: 40px;
+}
 .mail{
     color:#434455;
     font-weight: 400;
@@ -131,11 +135,19 @@ p{
     letter-spacing: 0.04em;
 }
 
+.section_{
+    padding: 120px 0;
+}
 .li{
     background-color: #FFFFFF;
 }
-.effective{
+.effective.visually-hidden{
     background-color: #FFFFFF;
+    
+}
+._section{
+    display: flex;
+    gap: 24px;
 }
 .strategy{
     font-weight: 500;
@@ -144,15 +156,20 @@ p{
     letter-spacing: 0.02em;
     color: #2e2f42;
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    margin-bottom: 8px;
+    text-align: center;
 }
 .strategy_{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
-.section_{
+.section__{
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .our-team{ 
@@ -165,10 +182,17 @@ p{
     border: 0;
     line-height: 1.11;
     text-transform: capitalize;
+    margin-bottom: 72px; 
+}
+.__section{
+    display: flex;
+    gap: 24px;
 }
 
 .mark-guerrero{
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 .mark-guerrero1{
     font-size: 16px;
@@ -176,13 +200,8 @@ p{
     letter-spacing: 0.02em;
     color: #434455;
 }
-.tom-ford{
-    color: #434455;
-    font-weight: 400;
-    letter-spacing: 0.02em;
-    text-align: center;
-    
-    background-color: #FFFFFF;
+.mark{
+    padding: 32px 0;
 }
 .camil-garcia{
     color: #434455;
