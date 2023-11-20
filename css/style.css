@@ -3,6 +3,9 @@ body{
     color: #434455;
     background-color: #FFFFFF;
 }
+img{
+    display: block;
+}
 a{
     text-decoration:none;
     color: #2E2F42;
@@ -19,6 +22,19 @@ p{
     font-weight: 400;
     letter-spacing: 0.02em;
 }
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
+.container{
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
 .web{
     color: #4D5AE5;
     font-size: 18px;
@@ -27,6 +43,7 @@ p{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
+    margin-right: 76px;
 }
 .studio{
     color: #2e2f42;
@@ -37,39 +54,23 @@ p{
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;   
 }
-.nav{
+.menu{
+    display: flex;
+    gap: 40px;
+}
+.nav_{
     word-spacing: 40px;
     letter-spacing: 0.02em;
     font-weight: 500;
     line-height: 1.5;
-    
+    padding: 24px 0;
 }
-.nav:hover{
+.nav_:hover{
     color: #404bbf;
 }
-.nav:focus{
+.nav_:focus{
     color: #404bbf;
 }
-/*.studio1{
-    word-spacing: 40px;
-    letter-spacing: 0.02em
-}
-.studio1:hover{
-    color: #404bbf;
-}
-.studio1:focus{
-    color: #404bbf
-}
-.contacts{
-    word-spacing: 40px;
-    letter-spacing: 0.02em
-}
-.contacts:hover{
-    color: #404bbf;
-}
-.contacts:focus{
-    color: #404bbf;
-}*/
 .address{
     font-style: normal
 }
@@ -78,6 +79,7 @@ p{
     font-weight: 400;
     letter-spacing: 0.02em;
     line-height: 1.5;
+    display: flex; 
 }
 .mail:hover{
     color:  #404bbf ;
@@ -85,20 +87,9 @@ p{
 .mail:focus{
     color:  #404bbf;
 }
-.phone{
-    color:#434455;
-    font-weight: 400;
-    letter-spacing: 0.02em;
-    line-height: 1.5;
-}
-.phone:hover{
-    color:  #404bbf;
-}
-.phone:focus{
-    color:  #404bbf;
-}
 .section{
     background:#2E2F42;
+    padding: 188px 0;
 }
 .title{
     color: #FFFFFF;
@@ -107,13 +98,17 @@ p{
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    
+    max-width: 496px;
     margin: 0;
 }
 .button{
     background-color: #4D5AE5;
     border: none;
+    border-radius: 4px;
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
         /*Text*/
     color: #FFFFFF;
     letter-spacing: 0.04em;
@@ -121,8 +116,7 @@ p{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-
-
+    
 }
 .button:hover{
     background-color: #404BBF;
@@ -136,17 +130,6 @@ p{
     line-height: 24px;
     letter-spacing: 0.04em;
 }
-
-.block1{
-    background: #F4F4FD;
-}
-.block3{
-    background:#2E2F42;
-}
-.block4{
-    background:#ffffff;
-}
-
 
 .li{
     background-color: #FFFFFF;
