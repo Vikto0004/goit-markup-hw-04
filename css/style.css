@@ -30,6 +30,7 @@ p{
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    width: calc((100% - 48px) / 3); 
 }
 .nav{
     display: flex;
