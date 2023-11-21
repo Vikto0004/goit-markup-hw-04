@@ -143,7 +143,7 @@ p{
 .li{
     background-color: #FFFFFF;
 }
-.effective.visually-hidden{
+.effective{
     background-color: #FFFFFF;
     position: absolute;
     visibility: hidden;
