@@ -145,7 +145,6 @@ p{
 }
 .effective{
     background-color: #FFFFFF;
-    position: absolute;
     visibility: hidden;
 }
 ._section{
