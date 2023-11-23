@@ -147,34 +147,38 @@ p{
     background-color: #FFFFFF;
     visibility: hidden;
 }
-._section{
+._section {
     display: flex;
     gap: 24px;
-}
-.punctuality{
-    flex-basis: calc((100% - 3 * 24px) / 4);
-}
-.strategy{
+  }
+  
+  .punctuality {
+    width: calc((100% - 72px) / 4);
+  }
+  
+  .strategy {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     margin-bottom: 8px;
     text-align: center;
-}
-.strategy_{
+  }
+  
+  .strategy_ {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
-}
-.section__{
-    background-color: #F4F4FD;
+  }
+  
+  .section__ {
+    background-color: #f4f4fd;
     padding: 120px 0;
-}
+  }
 
 .our-team{ 
     color:#2E2F42;
