@@ -61,8 +61,6 @@ p{
 .menu{
     display: flex;
     gap: 40px;
-    position: relative; 
-    color: #404bbf;
 }
 .nav_{
     word-spacing: 40px;
@@ -70,6 +68,8 @@ p{
     font-weight: 500;
     line-height: 1.5;
     padding: 24px 0;
+    position: relative; 
+    color: #404bbf;
 }
 .nav_:hover{
     color: #404bbf;
