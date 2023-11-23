@@ -33,7 +33,7 @@ p{
     padding: 0 15px;
     width: calc((100% - 48px) / 3); 
     width: 1158px;
-    position: relative; 
+    
 }
 .nav{
     display: flex;
@@ -48,6 +48,8 @@ p{
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     margin-right: 76px;
+    position: relative; 
+    color: #404bbf;
 }
 .studio{
     color: #2e2f42;
@@ -61,7 +63,7 @@ p{
 .menu{
     display: flex;
     gap: 40px;
-    color: #404bbf;
+    
 }
 .nav_{
     word-spacing: 40px;
