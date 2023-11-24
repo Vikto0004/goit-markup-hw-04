@@ -243,6 +243,11 @@ p{
     padding: 32px 0;
     width: calc((100% - 72px) / 4);
 }
+.social{
+    display: flex;
+    justify-content: center; 
+    gap: 24px;
+}
 .camil-garcia{
     color: #434455;
     font-weight: 400;
