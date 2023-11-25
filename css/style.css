@@ -171,7 +171,6 @@ p{
 ._section {
     display: flex;
     gap: 24px;
-    width: calc((100vw - 72px) / 4)
   }
   
   .punctuality {
@@ -187,7 +186,6 @@ p{
     background-color: #ffffff;
     margin-bottom: 8px;
     text-align: center;
-    width: calc((100vw - 72px) / 4)
   }
   
   .icon{
