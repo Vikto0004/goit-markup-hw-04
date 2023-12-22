@@ -347,7 +347,7 @@ img{
     margin-bottom: 8px;
 }
 
-.portfolio-item__descr:hover{
+.portfolio-container-img:hover{
     transform: translateY(0%);
 }
 
