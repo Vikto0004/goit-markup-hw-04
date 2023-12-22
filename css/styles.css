@@ -353,6 +353,7 @@ img{
 }
 
 .portfolio-container-descr{
+    display: flex;
     position: absolute; 
     top: 0;
     font-size: 16px;
