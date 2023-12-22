@@ -382,6 +382,7 @@ img{
     padding: 0 15px;
     display: flex;
     align-items: baseline;
+    padding: 100px 0;
 }
 
 .footer-container-text{
