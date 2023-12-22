@@ -44,7 +44,6 @@ img{
     color: #4d5ae5;
     text-transform: uppercase;
     margin-right: 76px;
-    position: relative; 
 }
 
 .main-logo__color{
@@ -78,6 +77,10 @@ img{
     display: flex;
     gap: 40px;
     padding: 24px 0px;
+}
+
+.header-nav__item{
+    position: relative; 
 }
 
 .header-nav__link{
