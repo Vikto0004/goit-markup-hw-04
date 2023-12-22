@@ -53,9 +53,6 @@ img{
 .container{
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
-    display: flex;
-    align-items: baseline;
 }
 
 /*          HEADER          */
@@ -379,6 +376,12 @@ img{
     padding: 100px 0;
 }
 
+.footer-container{
+    padding: 0 15px;
+    display: flex;
+    align-items: baseline;
+}
+
 .footer-descr{
     color: #F4F4FD;
     max-width: 264px;
@@ -401,7 +404,7 @@ img{
     color: #f4f4fd;
 }
 
-.footer-container{
+.footer-container-icon{
     margin-right: 120px
 }
 
