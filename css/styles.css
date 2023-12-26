@@ -139,6 +139,7 @@ img{
     background-size: cover;
     max-width: 1440px; 
     background-repeat: no-repeat;
+    margin: 0 auto;
     
 }
 
@@ -353,7 +354,7 @@ img{
     margin-bottom: 8px;
 }
 
-.portfolio-container-img:hover .portfolio-container-descr{
+.portfolio-item:hover .portfolio-container-descr{
     transform: translateY(0%);
 }
 
@@ -380,12 +381,12 @@ img{
 /*          FOOTER          */
 .footer{
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 
 .footer-container{
     display: flex;
     align-items: baseline;
-    padding: 100px 0;
 }
 
 .footer-container-text{
@@ -412,10 +413,6 @@ img{
 
 .main-footer-logo__color{
     color: #f4f4fd;
-}
-
-.footer-container-icon{
-    margin-right: 120px
 }
 
 .footer-container-descr{
